@@ -26,21 +26,25 @@ ul {
     display: flex;
     margin: 0;
     gap: 20px;
-    }
+}
 
-h2,
-.awesome-text {
+h1 {
     color: white;
+    margin-bottom: 0;
 }
 
-.awesome-text{
+.awesome-text {
     max-width: 400px;
+    color: #E5E7EB;
+    margin: 10px 0px;
+    font-weight: 400;
 }
+
 .block-1 {
     display: flex;
     justify-content: space-between;
-    padding-right: 180px;
-    padding-left: 180px;
+    padding: 50px 180px;
+
 
 }
 
@@ -51,6 +55,10 @@ h2,
 }
 
 .block-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     padding-right: 180px;
     padding-left: 180px;
@@ -63,15 +71,40 @@ h2,
     color: #E5E7EB;
 }
 
-.blue-box{
+.blue-box {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    font-size: 18px;
+    justify-content: center;
     background-color: #3882F6;
     border-radius: 5px;
     margin-top: 60px;
     margin-bottom: 60px;
     height: 100px;
+    width: 800px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    line-height: 45px;
+    max-width: 800px;
+    margin-bottom: 0;
+}
+
+#thor {
+
+    font-size: 18px;
+    font-weight: bolder;
+    max-width: 720px;
+    margin: 0px 0px 36px 0px;
+}
+
+.citation {
+    display: flex;
+    justify-content: flex-end;
     width: 800px;
 }
 a {
@@ -81,10 +114,12 @@ a {
 button {
     background-color: #3882F6;
     border-radius: 5px;
+    font-size: 18px;
     color: white;
     border-color: white;
-    padding: 15 10px;
+    padding: 5px 25px;
 }
+
 a:link {
     display: flex;
     color: #E5E7EB;
@@ -93,5 +128,5 @@ a:link {
 }
 
 a:visited {
-    color: #3158a7;
+    color: #E5E7EB;
 }
