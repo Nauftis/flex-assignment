@@ -11,8 +11,8 @@ body {
     align-items: center;
     padding-top: 12px;
     justify-content: space-between;
-    padding-right: 180px;
-    padding-left: 180px;
+    padding-right: 100px;
+    padding-left: 100px;
 
 }
 
@@ -28,40 +28,98 @@ ul {
     gap: 20px;
 }
 
+img {
+    display: flex;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-left: 20px;
+    align-items: center;
+}
 h1 {
     color: white;
     margin-bottom: 0;
+    line-height: 50px;
+    font-size: 48px;
 }
 
+h3 {
+     font-size: 36px;
+}
+
+h6 {
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    color: #E5E7EB;
+}
+
+p {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
 .awesome-text {
-    max-width: 400px;
     color: #E5E7EB;
     margin: 10px 0px;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .block-1 {
     display: flex;
-    justify-content: space-between;
-    padding: 50px 180px;
-
-
+    align-items: flex-start;
+    padding: 50px 100px;
 }
 
 .block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: white;
-    padding-right: 180px;
-    padding-left: 180px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
+.container-info {
+    display: flex;
+    align-items: stretch;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    }
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 20px;
+    border-color: #1f2937;
+    width: 150px;
+    margin: 30px 20px 5px 20px;
+    height: 150px;
+   }
+.text {
+   text-align: center;
+   max-width: 150px;
+   font-size: 16px;
+   margin-bottom: 60px; 
+}
 .block-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding-right: 180px;
-    padding-left: 180px;
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 300px;
 }
 
 .block-4 {
@@ -75,7 +133,7 @@ h1 {
     display: flex;
     align-items: center;
     font-size: 18px;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #3882F6;
     border-radius: 5px;
     margin-top: 60px;
@@ -98,8 +156,8 @@ h1 {
 
     font-size: 18px;
     font-weight: bolder;
-    max-width: 720px;
-    margin: 0px 0px 36px 0px;
+    max-width: 700px;
+    margin: 0px 0px 30px 0px;
 }
 
 .citation {
@@ -129,4 +187,12 @@ a:link {
 
 a:visited {
     color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 80px;
 }
